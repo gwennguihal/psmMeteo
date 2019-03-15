@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rrB-5n-Eiv" customClass="HeaderView" customModule="Meteo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="gJc-gZ-or6">
+                    <rect key="frame" x="0.0" y="0.0" width="391" height="220"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Méteo Paris" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQZ-WK-qfc">
+                    <rect key="frame" x="40" y="40" width="89" height="72"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="EQZ-WK-qfc" firstAttribute="top" secondItem="eoe-xw-DQp" secondAttribute="top" constant="40" id="6BE-6E-dE6"/>
+                <constraint firstItem="eoe-xw-DQp" firstAttribute="trailing" secondItem="gJc-gZ-or6" secondAttribute="trailing" id="AZu-zx-fDL"/>
+                <constraint firstItem="gJc-gZ-or6" firstAttribute="leading" secondItem="eoe-xw-DQp" secondAttribute="leading" id="GXR-FE-Jrb"/>
+                <constraint firstItem="EQZ-WK-qfc" firstAttribute="leading" secondItem="eoe-xw-DQp" secondAttribute="leading" constant="40" id="ITE-o2-x3w"/>
+                <constraint firstItem="eoe-xw-DQp" firstAttribute="bottom" secondItem="gJc-gZ-or6" secondAttribute="bottom" id="lTO-Rd-Rsp"/>
+                <constraint firstItem="gJc-gZ-or6" firstAttribute="top" secondItem="eoe-xw-DQp" secondAttribute="top" id="vNa-PQ-Dkd"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="eoe-xw-DQp"/>
+            <connections>
+                <outlet property="titleLabel" destination="EQZ-WK-qfc" id="iUe-u4-Bvj"/>
+            </connections>
+            <point key="canvasLocation" x="-191.19999999999999" y="-384.10794602698655"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="header" width="375" height="157"/>
+    </resources>
+</document>
