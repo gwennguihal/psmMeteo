@@ -29,8 +29,6 @@ class MeteoViewController: UITableViewController {
         viewModel.fetch()
     }
 
-    var objects = [NSDate]()
-
     // MARK: - Table View
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

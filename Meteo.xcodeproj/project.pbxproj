@@ -15,7 +15,6 @@
 		F02F6BD7223AA50B00C0D9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F02F6BD5223AA50B00C0D9D6 /* LaunchScreen.storyboard */; };
 		F02F6BE2223AA50B00C0D9D6 /* MeteoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F6BE1223AA50B00C0D9D6 /* MeteoTests.swift */; };
 		F02F6BEE223AA5DE00C0D9D6 /* MeteoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F6BED223AA5DE00C0D9D6 /* MeteoViewModel.swift */; };
-		F02F6BF1223AABB400C0D9D6 /* Meteo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F6BF0223AABB400C0D9D6 /* Meteo.swift */; };
 		F02F6BF4223AB8D700C0D9D6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F6BF3223AB8D700C0D9D6 /* HeaderView.swift */; };
 		F02F6BF6223AB8E400C0D9D6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02F6BF5223AB8E400C0D9D6 /* HeaderView.xib */; };
 		F02F6BF9223ABB1000C0D9D6 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F6BF8223ABB1000C0D9D6 /* DayViewModel.swift */; };
@@ -47,7 +46,6 @@
 		F02F6BE1223AA50B00C0D9D6 /* MeteoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoTests.swift; sourceTree = "<group>"; };
 		F02F6BE3223AA50B00C0D9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F02F6BED223AA5DE00C0D9D6 /* MeteoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteoViewModel.swift; sourceTree = "<group>"; };
-		F02F6BF0223AABB400C0D9D6 /* Meteo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo.swift; sourceTree = "<group>"; };
 		F02F6BF3223AB8D700C0D9D6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F02F6BF5223AB8E400C0D9D6 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		F02F6BF8223ABB1000C0D9D6 /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 		F02F6BEF223AABA800C0D9D6 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				F02F6BF0223AABB400C0D9D6 /* Meteo.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02F6BF4223AB8D700C0D9D6 /* HeaderView.swift in Sources */,
-				F02F6BF1223AABB400C0D9D6 /* Meteo.swift in Sources */,
 				F02F6BEE223AA5DE00C0D9D6 /* MeteoViewModel.swift in Sources */,
 				F02F6BFB223ABFA900C0D9D6 /* DayCell.swift in Sources */,
 				F02F6BCD223AA50900C0D9D6 /* MeteoViewController.swift in Sources */,
