@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Alamofire
 
 protocol MeteoViewModelDelegate: class {
     func fetchSucess()
